@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+</head>
+<body>
+    <h1>⭐Se solicita una aplicación que ayude al usuario a la toma de decisiones al momento de salir de su casa.
+Los días domingo el usuario no trabaja, el resto de los días sí.
+Si la temperatura está por debajo de los 10 grados el usuario debe "abrigarse mucho", si la temperatura está por encima de los 20 grados el usuario deberá "ponerse ropa cómoda" y para casos intermedios usará "abrigo moderado". 
+Se ingresa la temperatura y el día de la semana y la aplicación deberá mostrar la salida. A la salida se le incorporará para todos los casos la instrucción de levantarse:
+
+Ejemplos de salida:
+Ej. 1:
+Levantarse
+Ponerse ropa cómoda
+Quedarse en casa, hoy no trabaja
+
+Ej. 2:
+Levantarse
+Abrigarse Mucho
+Ir al trabajo
+
+Prestar atención a que las tres acciones no tienen vinculación entre sí.</h1>
+
+<label for="slcDias">Seleccionar Dia</label>
+<select name="Dias de la semana" id="slcDias" >
+    <option value="xx"></option>
+    <option value="LU">Lunes</option>
+    <option value="MA">Martes</option>
+    <option value="MI">Miercoles</option>
+    <option value="JU">Jueves</option>
+    <option value="VI">Viernes</option>
+    <option value="SA">Sabado</option>
+    <option value="DO">Domingo</option>
+</select><br>
+<label for="txtTemperatura"></label>
+<input type="text" id="txtTemperatura">
+
+<input type="button" id="btnIngresar" value="ingresar"><br>
+<p id="pResultado"></p>
+<p id="pResultado1"></p>
+<p id="pResultado2"></p>
+
+<script src="Ejercicio 9.js"></script>
+</body>
+</html>
