@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Desarrollar una aplicación que permita a una persona calcular el pago de IRPF .
+La persona deberá ingresar su sueldo nominal y presionar un botón.
+El cálculo de irpf consiste en sumar los porcentajes de las distintas franjas que comprenda el sueldo nominal.
+De 0 a 39.620  corresponde un 0 % o sea no paga irpf
+De 39.621 a 56.600 corresponde un 10 %
+De 56.601 a 84.900 corresponde un 15 %
+De 84.901 a 169.800 corresponde un 24 %
+De 169.801 a 283.000 corresponde un 25 %
+De 283.001 a 424.500 corresponde un 27 %
+De 424.501 a 650.900 corresponde un 31 %
+Mas de 650.901 corresponde un 36 %
+
+Para un sueldo nominal de 150.000 pesos el irpf correspondiente es la suma de:
+1ra franja 0 + 2da franja completa (16979) 1697,9 + 3ra franja completa (28299) 4244,85 + 4ta franja parcial (65099) 15623,76 con un total de: 21566,51</h1>
+    
+
+
+
+<label for="txtIngresarSueldo">Ingrese su sueldo</label>
+<input type="text" id="txtIngresarSueldo"><br>
+
+<input type="button" id="btnCalcular" value="Calcular"><br>
+
+<p id="pResultado"></p>
+
+    <script src="Funciones ejercicio 9.js"></script>
+</body>
+</html>

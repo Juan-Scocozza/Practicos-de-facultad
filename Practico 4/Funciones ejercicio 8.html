@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Desarrollar una aplicación que permita calcular el sueldo líquido de una persona sin contemplar el irpf.
+Del sueldo nominal se descontará:
+- BPS un 15%
+- FRL 0,1 %
+También se descontará Fonasa que dependerá si tiene hijos o no. Fonasa con hijos 6%  sin hijos 4,5%.
+
+La persona deberá ingresar su sueldo nominal, seleccionar de un combo si tiene o no hijos y al presionar un botón se le mostrará el sueldo líquido a cobrar.
+
+Para un sueldo de 10.000 pesos el sueldo líquido sin hijos es de 8040 y con hijos de 7890.</h1>
+
+<label for="txtSueldo">Ingrese su sueldo</label>
+<input type="text" id="txtSueldo"><br>
+
+<select id="slcHijos" >
+    <option value="xx">Tiene hijos?</option>
+    <option value="S">Si</option>
+    <option value="N">No</option>
+</select>
+
+<input type="button" id="btnCalcular" value="Calcular sueldo"><br>
+
+<p id="pResultado"></p>
+<script src="Funciones ejercicio 8.js"></script>
+</body>
+</html>

@@ -1,9 +1,15 @@
-function invertirTexto(texto){
-    let textoInvertido = ""
-for (let i=texto.length-1; i>= 0;i--){
-    textoInvertido += texto.charAt(i) 
+function calcularAreaTriangulo (base, altura){ 
+ 
+    if (base <= 0 || altura <= 0 ){
+        return -1
+    }
+    let area = base * altura / 2
+return area
 }
-return textoInvertido
 
-}
-console.log(invertirTexto("Hola mundo"))
+console.log(calcularAreaTriangulo(4,3))
+console.log(calcularAreaTriangulo(-4,3))
+
+
+
+
